@@ -5,7 +5,7 @@
   --background-color: #888e7f87;
 }
 
-img {
+.project-img {
   width: 500px;
   display: block;
   margin: 0 auto;
@@ -29,16 +29,15 @@ img {
   font-size: 28px;
 }
 
-.about-main {
+.main-about {
   font-family: var(--main-font);
   border: 2px solid var(--secondary-color);
   border-radius: 5px;
   padding: 30px;
-  max-width: 500px;
+  max-width: 550px;
   display: block;
   margin: 0 auto;
   margin-top: 100px;
-  background-color: #888e7f7c;
 }
 .about {
   font-weight: 200;
@@ -48,7 +47,9 @@ img {
 }
 .icons {
   text-align: center;
-  margin: 20px 200px;
+  color: var(--primary-color);
+  max-width: 700px;
+  margin-top: 100px;
 }
 .icon {
   font-size: 50px;
@@ -60,4 +61,19 @@ img {
 }
 .head {
   background-color: var(--background-color);
+}
+
+@media (max-width: 900px) {
+  .project-img {
+    width: 400px;
+  }
+  .main-name {
+    font-size: 54px;
+  }
+  .main-hi {
+    font-size: 32px;
+  }
+  .main-description {
+    font-size: 22px;
+  }
 }
