@@ -1,8 +1,9 @@
 :root {
   --primary-color: #596e79;
   --secondary-color: #dfd3c3;
+  --text-color: rgb(47, 46, 65);
   --main-font: "Poppins", sans-serif;
-  --background-color: #f0ece25e;
+  --background-color: #f0ece241;
 }
 body {
   background-color: var(--background-color);
@@ -29,6 +30,7 @@ body {
   font-family: var(--main-font);
   font-weight: 200;
   font-size: 22px;
+  color: var(--text-color);
 }
 
 .main-about {
@@ -51,11 +53,21 @@ body {
   text-align: center;
   color: var(--primary-color);
   max-width: 700px;
-  margin-top: 100px;
+  padding: 30px;
+  margin-top: 120px;
+  margin-bottom: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.902);
+  border-radius: 10px;
+  background-color: #596e7918;
+  backdrop-filter: blur(5px);
 }
 .icon {
   font-size: 50px;
   padding: 20px;
+}
+
+.icon:hover {
+  color: var(--secondary-color);
 }
 .icon-text {
   font-family: var(--main-font);
@@ -63,6 +75,7 @@ body {
 }
 .head {
   margin: 50px;
+  margin-top: 100px;
 }
 
 .title {
@@ -75,17 +88,30 @@ body {
   color: var(--primary-color);
 }
 
-.projects-name {
+.sub-title {
   font-family: var(--main-font);
   font-weight: 200;
   color: var(--primary-color);
 }
-.projects-name:hover {
+.sub-title:hover {
   color: var(--secondary-color);
+}
+.tools-title {
+  font-family: var(--main-font);
+  font-weight: 200;
+  color: var(--primary-color);
 }
 .projects-description {
   font-family: var(--main-font);
   font-weight: 200;
+}
+
+.contact-me {
+  font-family: var(--main-font);
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 2;
+  margin-top: 40px;
 }
 @media (max-width: 900px) {
   .project-img {
