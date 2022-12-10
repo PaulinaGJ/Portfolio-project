@@ -1,7 +1,7 @@
 :root {
   --primary-color: #596e79;
   --secondary-color: #dfd3c3;
-  --text-color: rgb(47, 46, 65);
+  --text-color: #1e262a;
   --main-font: "Poppins", sans-serif;
   --background-color: #f0ece241;
 }
@@ -82,9 +82,9 @@ body {
   text-align: center;
   font-family: var(--main-font);
   font-weight: 400;
-  font-size: 46px;
-  margin-top: 100px;
-  margin-bottom: 70px;
+  font-size: 52px;
+  margin-top: 120px;
+  margin-bottom: 120px;
   color: var(--primary-color);
 }
 
@@ -105,14 +105,32 @@ body {
   font-family: var(--main-font);
   font-weight: 200;
 }
-
+.project-block {
+  margin-top: 80px;
+}
 .contact-me {
   font-family: var(--main-font);
   font-size: 22px;
   font-weight: 200;
   line-height: 2;
   margin-top: 40px;
+  font-size: 18x;
 }
+
+footer .social-links a {
+  color: var(--primary-color);
+  margin: 100px 40px;
+  background: #dfd3c36a;
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+  margin-bottom: 50px;
+}
+footer .social-links a:hover {
+  color: #dfd3c36a;
+  background-color: var(--primary-color);
+}
+
 @media (max-width: 900px) {
   .project-img {
     width: 400px;
