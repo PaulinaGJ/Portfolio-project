@@ -135,7 +135,13 @@ footer .social-links a:hover {
   color: #dfd3c36a;
   background-color: var(--primary-color);
 }
+.sign{
+text-align: center;}
 
+#github-link{
+  font-family: var(--main-font);
+  color: var(--primary-color);
+}
 @media (max-width: 900px) {
   .project-img {
     width: 400px;
