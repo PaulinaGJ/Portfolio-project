@@ -8,7 +8,8 @@
 body {
   background-color: var(--background-color);
 }
-.project-img {
+
+.main-img {
   width: 500px;
   display: block;
   margin: 0 auto;
@@ -107,6 +108,10 @@ body {
 }
 .project-block {
   margin-top: 80px;
+}
+
+.project-img{
+  width: 500px;
 }
 .contact-me {
   font-family: var(--main-font);
